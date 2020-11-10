@@ -99,19 +99,39 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1246px;
+  width: 90%; 
   margin: 0 auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
-
-
-
-
-
+header{
+  height: 43px;
+  background-color: #F1F1F1;
+  display: flex;
+  align-items: center;
+}
+header .wrapper{
+  max-width: 1028px;
+  margin: auto;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.navigation a{
+  font-size: 18px;
+  color: #080B0E;
+  letter-spacing: 1px;
+}
 /*=================================
   Header styling ends here
 =================================*/  
