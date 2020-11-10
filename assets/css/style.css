@@ -521,13 +521,13 @@ textarea {
   width: 100%;
   font-size: 17px;
   padding: 5px 10px;
-  border: 1px solid #D5D5D5;
+  border: 1px solid #d5d5d5;
   outline: none;
   margin-bottom: 9px;
   height: 39px;
   resize: none;
 }
-input[type="submit"]{
+input[type="submit"] {
   background-color: #000000;
   color: #ffffff;
   font-size: 16px;
@@ -543,43 +543,43 @@ input[type="submit"]{
 /*=================================
   footer styling starts here
 =================================*/
-footer{
-  background-color: #F1F1F1;
+footer {
+  background-color: #f1f1f1;
   padding: 47px 0 20px;
 }
-footer .wrapper{
+footer .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-h5{
-font-size: 22px;
+h5 {
+  font-size: 22px;
 }
-.to-top-btn a{
-padding: 8px 24px;
-background-color: #000000;
-font-family: "Poppins", sans-serif;
-font-size: 14px;
-color: #fff;
-font-weight: 500;
-margin: 27px 0 38px;
+.to-top-btn a {
+  padding: 8px 24px;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  margin: 27px 0 38px;
 }
-.to-top-btn a span{
+.to-top-btn a span {
   margin-right: 20px;
   font-size: 16px;
 }
-.social-icons{
+.social-icons {
   margin-bottom: 27px;
 }
-.social-icons li{    
+.social-icons li {
   width: 27px;
   height: 25px;
 }
-.social-icons li a{ 
+.social-icons li a {
   text-indent: -999999px;
 }
-.social-icons li a span{
+.social-icons li a span {
   float: right;
   text-indent: 0;
   text-align: center;
@@ -587,12 +587,12 @@ margin: 27px 0 38px;
   color: #000;
 }
 
-h6{
-  color: #251C42;
+h6 {
+  color: #251c42;
   font-size: 17px;
 }
-h6 a{
-  color: #251C42;
+h6 a {
+  color: #251c42;
   text-decoration: underline;
 }
 /*=================================
@@ -605,72 +605,38 @@ h6 a{
   header .wrapper {
     width: 90%;
     margin: auto;
-<<<<<<< HEAD
-}
+  }
 
-.offer-box {
-  width: 100%;
-  padding: 25px 21px 21px;
-}
-.offer-content {
+  .offer-box {
+    width: 100%;
+    padding: 25px 21px 21px;
+  }
+  .offer-content {
     flex-wrap: wrap;
-}
-.table {
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.table-content {
-  width: 80%;
-  border: 1px solid #dddddd;
-  text-align: center;
-  margin: 20px auto;
-}
-.testimonial-content {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.testimonial-box {
-  width: 80%;
-  margin: 20px auto;
-}
-.testimonial-box figure{
-  height: 350px;
-}
-}
-=======
-}
-
-.offer-box {
-  width: 100%;
-  padding: 25px 21px 21px;
-}
-.offer-content {
+  }
+  .table {
     flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .table-content {
+    width: 80%;
+    border: 1px solid #dddddd;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .testimonial-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonial-box {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .testimonial-box figure {
+    height: 350px;
+  }
 }
-.table {
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.table-content {
-  width: 80%;
-  border: 1px solid #dddddd;
-  text-align: center;
-  margin: 20px auto;
-}
-.testimonial-content {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.testimonial-box {
-  width: 80%;
-  margin: 20px auto;
-}
-.testimonial-box figure{
-  height: 350px;
-}
-}
->>>>>>> f8041a3a4e871cdb14863f948359f09070826b60
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .table-content {
     width: 90%;
   }
