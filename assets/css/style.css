@@ -401,7 +401,7 @@ h2::after {
   font-size: 25px;
   font-weight: 500;
 }
-.table-content:nth-child(2) h3{
+.table-content:nth-child(2) h3 {
   background-color: #616161;
 }
 .bold-black {
@@ -433,28 +433,85 @@ h2::after {
   color: #000;
   margin-bottom: 7px;
 }
-.sign-up{
-  background-color: #F1F1F1;
+.sign-up {
+  background-color: #f1f1f1;
   height: 96px;
   display: flex;
-  align-items:center ;
+  align-items: center;
   justify-content: center;
 }
-.sign-up a{
+.sign-up a {
   padding: 10px 31px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
 }
 /*=================================
   Pricing styling ends here
+=================================*/
+/*=================================
+  testimonial styling starts here
+=================================*/
+.testimonial {
+  padding-bottom: 72px;
+}
+.testimonial h2::after {
+  width: 13%;
+}
+.testimonial-content {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial-box {
+  width: 32.3%;
+  box-shadow: 0 3px 10px #555555;
+}
+.testimonial-box figure {
+  height: 213px;
+}
+.testimonial-box img {
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  padding: 20px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.content h4 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 13px;
+  color: #000000;
+}
+.description {
+  color: #676767;
+  font-weight: 400;
+}
+.content p{
+  font-size: 15px;
+  margin: 13px 0 12px;
+}
+.content a{
+  width: 100%;
+  background-color: #F1F1F1;
+  text-align: center;
+  font-size: 16px;
+  padding: 5.5px 0;
+  color: #000;
+}
+/*=================================
+  testimonial styling ends here
 =================================*/
 
 /*=================================
   main styling ends here
 =================================*/
 
-/*=========FFFFFF========================
+/*=================================
+  footer styling starts here
+=================================*/
+/*=================================
   footer styling ends here
 =================================*/
 
