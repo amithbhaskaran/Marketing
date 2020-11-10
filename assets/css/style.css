@@ -603,5 +603,46 @@ h6 a{
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media (max-width: 768px) {
+  header .wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.offer-box {
+  width: 100%;
+  padding: 25px 21px 21px;
+}
+.offer-content {
+    flex-wrap: wrap;
+}
+.table {
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.table-content {
+  width: 80%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  margin: 20px auto;
+}
+.testimonial-content {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonial-box {
+  width: 80%;
+  margin: 20px auto;
+}
+.testimonial-box figure{
+  height: 350px;
+}
+}
+@media (max-width: 600px){
+  .table-content {
+    width: 90%;
+  }
+  .testimonial-box {
+    width: 95%;
+  }
 }
