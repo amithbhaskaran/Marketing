@@ -516,8 +516,6 @@ h2::after {
 .contact h2::after {
   width: 11.5%;
 }
-label {
-}
 input,
 textarea {
   width: 100%;
@@ -607,6 +605,7 @@ h6 a{
   header .wrapper {
     width: 90%;
     margin: auto;
+<<<<<<< HEAD
 }
 
 .offer-box {
@@ -638,6 +637,39 @@ h6 a{
   height: 350px;
 }
 }
+=======
+}
+
+.offer-box {
+  width: 100%;
+  padding: 25px 21px 21px;
+}
+.offer-content {
+    flex-wrap: wrap;
+}
+.table {
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.table-content {
+  width: 80%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  margin: 20px auto;
+}
+.testimonial-content {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonial-box {
+  width: 80%;
+  margin: 20px auto;
+}
+.testimonial-box figure{
+  height: 350px;
+}
+}
+>>>>>>> f8041a3a4e871cdb14863f948359f09070826b60
 @media (max-width: 600px){
   .table-content {
     width: 90%;
