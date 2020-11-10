@@ -488,13 +488,13 @@ h2::after {
   color: #676767;
   font-weight: 400;
 }
-.content p{
+.content p {
   font-size: 15px;
   margin: 13px 0 12px;
 }
-.content a{
+.content a {
   width: 100%;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   text-align: center;
   font-size: 16px;
   padding: 5.5px 0;
@@ -502,6 +502,40 @@ h2::after {
 }
 /*=================================
   testimonial styling ends here
+=================================*/
+/*=================================
+  contact styling starts here
+=================================*/
+.contact {
+  padding-bottom: 68px;
+}
+.contact h2 {
+  margin: 7px 0 80px;
+  color: #280427;
+}
+.contact h2::after {
+  width: 11.5%;
+}
+label {
+}
+input,
+textarea {
+  width: 100%;
+  font-size: 17px;
+  padding: 5px 10px;
+  border: 1px solid #D5D5D5;
+  outline: none;
+  margin-bottom: 9px;
+  height: 39px;
+  resize: none;
+}
+input[type="submit"]{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+}
+/*=================================
+  contact styling ends here
 =================================*/
 
 /*=================================
