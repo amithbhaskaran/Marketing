@@ -207,6 +207,67 @@ a[title="Previous"] span, a[title="Next"] span{
   banner styling ends here
 =================================*/ 
 
+/*=================================
+  Offer styling starts here
+=================================*/
+.offer{
+  padding: 60px 0;
+}
+h2{
+  position: relative;
+  font-size: 27px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 55px;
+} 
+h2::after{
+  content: "";
+  width: 16%;
+  height: 5px;
+  background-color: #CCCCCC;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.offer-content{
+  width: 100%;
+  display: flex;
+}
+.offer-box{
+  width: 25%;
+  padding: 25px 21px 21px;
+}
+.offer-box:nth-child(1){
+  background-color: #F1F1F1;
+}
+.offer-box:nth-child(2){
+  background-color: #BBBBBB;
+}
+.offer-box:nth-child(3){
+  background-color: #616161;
+}
+.offer-box:nth-child(4){
+  background-color: #000000;
+}
+.offer-box h3{
+  font-size: 24px;
+  margin-bottom: 13px;
+  letter-spacing: 1px;
+  color: #000;
+}
+.offer-box p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.offer-box .white{
+  color: #FFFFFF;
+}
+ /*=================================
+  Offer styling ends here
+=================================*/ 
 
 /*=================================
   main styling ends here
