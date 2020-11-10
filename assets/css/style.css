@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,22 +98,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
-input[type='button'],
-input[type='submit'],
+input[type="button"],
+input[type="submit"],
 button {
   cursor: pointer;
 }
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,12 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -0.7em;
+}
+sub {
+  bottom: -0.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,8 +171,12 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -87,9 +184,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -100,41 +197,41 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1246px;
-  width: 97%; 
+  width: 97%;
   margin: 0 auto;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
-header{
+header {
   height: 43px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   display: flex;
   align-items: center;
 }
-header .wrapper{
+header .wrapper {
   max-width: 1028px;
   margin: auto;
 }
-.navigation{
+.navigation {
   display: flex;
   justify-content: space-between;
 }
-.navigation a{
+.navigation a {
   font-size: 18px;
-  color: #080B0E;
+  color: #080b0e;
   letter-spacing: 1px;
 }
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -142,36 +239,36 @@ header .wrapper{
 
 /*=================================
   banner styling starts here
-=================================*/ 
-.banner{
+=================================*/
+.banner {
   position: relative;
 }
-h1{
+h1 {
   margin: 38px 0 60px;
   font-size: 45px;
   font-weight: 500;
 }
-.banner figure{
+.banner figure {
   position: relative;
   height: 451px;
   width: 100%;
 }
-.banner img{
+.banner img {
   height: 100%;
   object-fit: cover;
 }
-.banner p{
+.banner p {
   display: inline-block;
   padding: 9px 28px;
   font-size: 16px;
   letter-spacing: 1px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: absolute;
   top: 24%;
   right: 3%;
   color: #000000;
 }
-.slider{
+.slider {
   height: 52px;
   width: 100%;
   background-color: #616161;
@@ -179,41 +276,42 @@ h1{
   align-items: center;
   justify-content: space-between;
 }
-.slider a{
+.slider a {
   width: 28px;
   height: 24px;
   text-indent: -999999px;
 }
-.slider span{
+.slider span {
   float: right;
   text-indent: 0;
   width: 100%;
   height: 100%;
 }
-.slider span{
+.slider span {
   font-size: 20px;
   color: #fff;
 }
-a[title="Previous"]{
+a[title="Previous"] {
   margin-left: 20px;
 }
-a[title="Next"]{
+a[title="Next"] {
   margin-right: 20px;
 }
-a[title="Previous"] span, a[title="Next"] span{
+a[title="Previous"] span,
+a[title="Next"] span {
   font-size: 26px;
 }
- /*=================================
+/*=================================
   banner styling ends here
-=================================*/ 
+=================================*/
 
 /*=================================
   Offer styling starts here
 =================================*/
-.offer{
+.offer {
   padding: 60px 0;
 }
-h2{
+h2 {
   position: relative;
   font-size: 27px;
   text-transform: capitalize;
@@ -221,69 +319,146 @@ h2{
   font-weight: 400;
   color: #000;
   margin-bottom: 55px;
-} 
-h2::after{
+}
+h2::after {
   content: "";
   width: 16%;
   height: 5px;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
   position: absolute;
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
-.offer-content{
+.offer-content {
   width: 100%;
   display: flex;
 }
-.offer-box{
+.offer-box {
   width: 25%;
   padding: 25px 21px 21px;
 }
-.offer-box:nth-child(1){
-  background-color: #F1F1F1;
+.offer-box:nth-child(1) {
+  background-color: #f1f1f1;
 }
-.offer-box:nth-child(2){
-  background-color: #BBBBBB;
+.offer-box:nth-child(2) {
+  background-color: #bbbbbb;
 }
-.offer-box:nth-child(3){
+.offer-box:nth-child(3) {
   background-color: #616161;
 }
-.offer-box:nth-child(4){
+.offer-box:nth-child(4) {
   background-color: #000000;
 }
-.offer-box h3{
+.offer-box h3 {
   font-size: 24px;
   margin-bottom: 13px;
   letter-spacing: 1px;
   color: #000;
 }
-.offer-box p{
+.offer-box p {
   font-size: 14px;
   font-weight: 400;
 }
-.offer-box .white{
-  color: #FFFFFF;
+.offer-box .white {
+  color: #ffffff;
 }
- /*=================================
+/*=================================
   Offer styling ends here
-=================================*/ 
+=================================*/
+/*=================================
+  Pricing styling starts here
+=================================*/
+.pricing {
+  padding: 14px 0 78px;
+}
+.pricing h2 {
+  margin-bottom: 10px;
+}
+.pricing h2:after {
+  display: none;
+}
+.pricing p {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.8;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.table-content {
+  width: 32.5%;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+.table-content h3 {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.table-content:nth-child(2) h3{
+  background-color: #616161;
+}
+.bold-black {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.storage,
+.emails,
+.domains,
+.support {
+  padding: 15px 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #dddddd;
+  font-weight: 400;
+}
+.amount {
+  padding: 30px 20px 14px;
+  border-bottom: 1px solid #dddddd;
+}
+.amount span {
+  display: block;
+  font-size: 15px;
+  color: #676767;
+}
+.amount .font-size {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  color: #000;
+  margin-bottom: 7px;
+}
+.sign-up{
+  background-color: #F1F1F1;
+  height: 96px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.sign-up a{
+  padding: 10px 31px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4CAF4F;
+}
+/*=================================
+  Pricing styling ends here
+=================================*/
 
 /*=================================
   main styling ends here
 =================================*/
 
-/*=================================
-  footer styling starts here
-=================================*/ 
- /*=================================
+/*=========FFFFFF========================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-
-
-}  
+}
